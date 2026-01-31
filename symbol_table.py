@@ -1,6 +1,7 @@
 class SymbolTable:
     def __init__(self):
-        self.table{}
+        self.symbols = {}
+        self.counter = 1
 
     def put(self, name, type_info, line):
         if name not in self.symbols:
